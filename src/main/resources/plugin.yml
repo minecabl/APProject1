@@ -1,0 +1,6 @@
+name: Jobs
+version: '${project.version}'
+main: jobsplugin.jobs.Jobs
+api-version: 1.18
+authors: [ Kapsreiter, Voelpel ]
+description: Implementierung von Berufen in Minecraft und speicherung in einer Datenbank. Projekt im Rahmen des Studiums an der HSW, 4. Semester. 
