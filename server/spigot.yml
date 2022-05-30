@@ -59,6 +59,8 @@ commands:
   - tellraw
 world-settings:
   default:
+    seed-bastion: 30084232
+    seed-fortress: 30084232
     below-zero-generation-in-existing-chunks: true
     verbose: false
     mob-spawn-range: 8

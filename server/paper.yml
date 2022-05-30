@@ -8,7 +8,7 @@
 # Discord: https://discord.gg/papermc
 # IRC: #paper @ irc.esper.net ( https://webchat.esper.net/?channels=paper ) 
 # Website: https://papermc.io/ 
-# Docs: https://docs.papermc.io/ 
+# Docs: https://paper.readthedocs.org/ 
 
 verbose: false
 messages:
@@ -31,7 +31,7 @@ timings:
   history-interval: 300
   history-length: 3600
   server-name: Unknown Server
-config-version: 27
+config-version: 24
 settings:
   region-file-cache-size: 256
   incoming-packet-spam-threshold: 300
@@ -121,6 +121,8 @@ settings:
         action: DROP
 world-settings:
   default:
+    use-faster-eigencraft-redstone: false
+    remove-corrupt-tile-entities: false
     enable-treasure-maps: true
     treasure-maps-return-already-discovered: false
     disable-teleportation-suffocation-check: false
@@ -365,4 +367,5 @@ world-settings:
     alt-item-despawn-rate:
       enabled: false
       items:
+        COBBLESTONE: 300
         cobblestone: 300
